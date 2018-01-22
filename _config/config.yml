@@ -1,0 +1,9 @@
+---
+Name: silverware-recaptcha
+---
+
+# Configure Injector:
+
+SilverStripe\Core\Injector\Injector:
+  RecaptchaHTTPClient:
+    class: SilverWare\Recaptcha\Clients\RecaptchaFieldClient
